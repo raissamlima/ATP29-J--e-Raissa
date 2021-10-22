@@ -1,9 +1,12 @@
 package ATP29.controller;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class BaseController<T> {
     private ArrayList<T>dados;
+
+    Scanner scanner = new Scanner(System.in);
 
     public BaseController() {
         this.dados = new ArrayList<>();
@@ -35,4 +38,5 @@ public class BaseController<T> {
     public boolean contains(T obj){
         return this.dados.contains(obj);
     }
+
 }

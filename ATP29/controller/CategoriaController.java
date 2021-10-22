@@ -1,4 +1,6 @@
 package ATP29.controller;
 
-public class CategoriaController {
+import ATP29.model.Categoria;
+
+public class CategoriaController extends BaseController<Categoria>{
 }

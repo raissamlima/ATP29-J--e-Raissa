@@ -1,4 +1,5 @@
 package ATP29.controller;
 
-public class ProdutoController {
+import ATP29.model.Produto;
+public class ProdutoController extends BaseController<Produto>{
 }
