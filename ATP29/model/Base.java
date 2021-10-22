@@ -1,7 +1,7 @@
 package ATP29.model;
 
 public class Base {
-    public String id;  
+    public String id = "abc123";
 
     @Override
     public boolean equals(Object obj) {
