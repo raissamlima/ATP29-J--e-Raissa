@@ -43,6 +43,7 @@ public class Main {
 
             switch (opcao) {
                 case 1:
+                    System.out.println("Cadastrando o produto: "+ c);
                     produtoController.create(pd);
                     System.out.println("------------Cadastrado realizado com sucesso!----------------");
                     System.out.println(c);
@@ -51,6 +52,7 @@ public class Main {
                 case 2:
                     produtoController.read();
                     System.out.println("-------------Lista Cadastrada-----------------");
+                    System.out.println(c +"---" + pd);
                     break;
 
                 case 3:
