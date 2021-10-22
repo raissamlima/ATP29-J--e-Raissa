@@ -31,9 +31,6 @@ public class Main {
         pd.categoria.atriz_principal = "Sereia";
         pd.categoria.duracao = "1hora e meia";
 
-        System.out.println(pd);
-        System.out.println(c);
-
 
         boolean invalido = true;
         do {
@@ -47,12 +44,14 @@ public class Main {
                     produtoController.create(pd);
                     System.out.println("------------Cadastrado realizado com sucesso!----------------");
                     System.out.println(c);
+                    System.out.println("Deseja continuar o cadastro --> S | N ?");
                     break;
 
                 case 2:
                     produtoController.read();
                     System.out.println("-------------Lista Cadastrada-----------------");
                     System.out.println(c +"---" + pd);
+                    System.out.println("Deseja continuar o cadastro --> S | N ?");
                     break;
 
                 case 3:
@@ -61,11 +60,13 @@ public class Main {
                     produtoController.update(pd);
                     System.out.println("------------Atualizada com sucesso!----------------");
                     System.out.println(pd);
+                    System.out.println("Deseja voltar ao menu --> S | N ?");
                     break;
 
                 case 4:
                     produtoController.delete(pd);
                     System.out.println("-----Deletado com sucesso---------");
+                    System.out.println("Deseja voltar ao menu --> S | N ?");
                     break;
 
                 case 5:
