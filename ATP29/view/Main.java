@@ -40,10 +40,9 @@ public class Main {
 
             switch (opcao) {
                 case 1:
-                    System.out.println("Cadastrando o produto: "+ c);
-                    produtoController.create(pd);
+                    System.out.println("Cadastrando o produto: ");
                     System.out.println("------------Cadastrado realizado com sucesso!----------------");
-                    System.out.println(c);
+                    System.out.println(pd);
                     System.out.println("Deseja continuar o cadastro --> S | N ?");
                     break;
 
