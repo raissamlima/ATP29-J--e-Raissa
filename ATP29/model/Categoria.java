@@ -20,7 +20,7 @@ public class Categoria {
 
     @Override
     public String toString() {
-        String retorno = this.nome_filme + ", " + this.ator_principal + ", " + this.atriz_principal + ", "
+        String retorno = "=== Filme === \n" + this.nome_filme + "Ator principal: " + this.ator_principal + "Ator principal: " + this.atriz_principal + "Duração: "
                 + this.duracao;
         return retorno;
     }

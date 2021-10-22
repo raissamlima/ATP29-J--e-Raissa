@@ -26,11 +26,13 @@ public class Main {
 
         // PRODUTO
         pd.dvd = "Box";
+        pd.categoria.nome_filme = "Alagados";
+        pd.categoria.ator_principal = "Salva-vidas";
+        pd.categoria.atriz_principal = "Sereia";
+        pd.categoria.duracao = "1hora e meia";
 
-        // IMPRESSAO
-
-        System.out.println(c);
         System.out.println(pd);
+        System.out.println(c);
 
 
         boolean invalido = true;
@@ -43,7 +45,7 @@ public class Main {
                 case 1:
                     produtoController.create(pd);
                     System.out.println("------------Cadastrado realizado com sucesso!----------------");
-                    System.out.println(pd);
+                    System.out.println(c);
                     break;
 
                 case 2:
@@ -54,7 +56,7 @@ public class Main {
                 case 3:
                     produtoController.update(pd);
                     System.out.println("------------Atualizada com sucesso!----------------");
-                    System.out.println(pd);
+                    System.out.println(c);
                     break;
 
                 case 4:

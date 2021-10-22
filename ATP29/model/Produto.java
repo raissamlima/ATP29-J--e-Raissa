@@ -1,7 +1,7 @@
 package ATP29.model;
 
 public class Produto extends Base {
-    public Categoria categoria;
+    public Categoria categoria = new Categoria();
     public String dvd;
 
     @Override
@@ -14,10 +14,11 @@ public class Produto extends Base {
         }
         return false;
     }
+
     @Override
-    public String toString(){
-        String retorno = this.dvd;
-        return retorno;
+    public String toString() {
+        return "== Produto ==\n" +
+                "| Dvd: " + dvd;
     }
 }
 
