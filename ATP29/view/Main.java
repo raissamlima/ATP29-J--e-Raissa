@@ -56,9 +56,11 @@ public class Main {
                     break;
 
                 case 3:
+
+                    pd.dvd = "Coleção completa";
                     produtoController.update(pd);
                     System.out.println("------------Atualizada com sucesso!----------------");
-                    System.out.println(c);
+                    System.out.println(pd);
                     break;
 
                 case 4:
